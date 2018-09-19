@@ -31,14 +31,14 @@ public class GerenciadorArquivos implements FormatoAudio {
 	}
 
 	@Override
-	public void avancar() {
-		formato.avancar();
+	public void avancar(int n) {
+		formato.avancar(n);
 		
 	}
 
 	@Override
-	public void retomar() {
-		formato.retomar();
+	public void retornar(int n) {
+		formato.retornar(n);
 		
 	}
 

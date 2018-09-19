@@ -1,21 +1,23 @@
 import problema1.wmaPlay;
 
 public class wmaPlayNosso extends wmaPlay implements FormatoAudio {
+	private boolean parado;
 
 	@Override
 	public void abrir(String string) {
-		// TODO Auto-generated method stub
+		setFile(string);
 		
 	}
 
 	@Override
 	public void reproduzir() {
-		// TODO Auto-generated method stub
+		play();
 		
 	}
 
 	@Override
 	public void pausar() {
+		parado = true;
 		stop();
 	}
 
@@ -24,23 +26,23 @@ public class wmaPlayNosso extends wmaPlay implements FormatoAudio {
 		stop();
 		setLocation(0);
 		
-	}
-
-	@Override
-	public void avancar() {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void retomar() {
-		// TODO Auto-generated method stub
+	public void avancar(int n) {
+		setLocation(getLocation() + n); 		
+	}
+
+	@Override
+	public void retornar(int n) {
+		setLocation(getLocation() - n); 
 		
 	}
 
 	@Override
 	public void liberar() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
