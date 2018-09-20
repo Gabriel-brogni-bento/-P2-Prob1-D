@@ -5,7 +5,6 @@ public class wmaPlayNosso extends wmaPlay implements FormatoAudio {
 	@Override
 	public void abrir(String string) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
@@ -27,13 +26,13 @@ public class wmaPlayNosso extends wmaPlay implements FormatoAudio {
 	}
 
 	@Override
-	public void avancar() {
+	public void avancar(int valor) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void retomar() {
+	public void retornar(int valor) {
 		// TODO Auto-generated method stub
 		
 	}
@@ -42,12 +41,5 @@ public class wmaPlayNosso extends wmaPlay implements FormatoAudio {
 	public void liberar() {
 		// TODO Auto-generated method stub
 		
-	}
-
-	
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 }
