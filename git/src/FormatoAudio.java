@@ -5,8 +5,8 @@ public interface FormatoAudio {
 	public void reproduzir();
 	public void pausar();
 	public void parar();
-	public void avancar(int n);
-	public void retornar(int n);
+	public void avancar(int valor);
+	public void retornar(int valor);
 	public void liberar();
 	
 }
