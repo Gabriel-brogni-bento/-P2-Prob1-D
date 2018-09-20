@@ -4,13 +4,14 @@ public class wmaPlayNosso extends wmaPlay implements FormatoAudio {
 
 	@Override
 	public void abrir(String string) {
-		// TODO Auto-generated method stub
+		setFile(string);
+		open();
+		setLocation(0);
 	}
 
 	@Override
 	public void reproduzir() {
-		// TODO Auto-generated method stub
-		
+		play();
 	}
 
 	@Override
@@ -21,25 +22,20 @@ public class wmaPlayNosso extends wmaPlay implements FormatoAudio {
 	@Override
 	public void parar() {
 		stop();
-		setLocation(0);
-		
+		stop();		
 	}
 
 	@Override
 	public void avancar(int valor) {
-		// TODO Auto-generated method stub
-		
+		setLocation(getLocation() + valor); 		
 	}
 
 	@Override
 	public void retornar(int valor) {
-		// TODO Auto-generated method stub
+		setLocation(getLocation() - valor); 
 		
 	}
 
 	@Override
-	public void liberar() {
-		// TODO Auto-generated method stub
-		
-	}
+	public void liberar() {}
 }
