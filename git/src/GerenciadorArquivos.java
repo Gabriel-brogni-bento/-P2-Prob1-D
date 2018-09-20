@@ -31,14 +31,14 @@ public class GerenciadorArquivos implements FormatoAudio {
 	}
 
 	@Override
-	public void avancar() {
-		formato.avancar();
+	public void avancar(int valor) {
+		formato.avancar(valor);
 		
 	}
 
 	@Override
-	public void retomar() {
-		formato.retomar();
+	public void retornar(int valor) {
+		formato.retornar(valor);
 		
 	}
 
@@ -52,6 +52,7 @@ public class GerenciadorArquivos implements FormatoAudio {
 		GerenciadorArquivos gerenciador = new GerenciadorArquivos(new wmaPlayNosso());
 		
 		gerenciador.parar();
+		
 	}
 
 }

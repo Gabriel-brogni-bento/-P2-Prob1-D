@@ -31,13 +31,13 @@ public class AIFFSuperPlayerNosso extends AIFFSuperPlayer implements FormatoAudi
 	}
 
 	@Override
-	public void avancar() {
+	public void avancar(int n) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void retomar() {
+	public void retornar(int n) {
 		// TODO Auto-generated method stub
 		
 	}
