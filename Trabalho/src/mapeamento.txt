@@ -1,0 +1,9 @@
+Factory:
+GerenciadorArquivosFactory
+
+Adapter:
+Arquivos com final "Nosso" - Adaptee
+Arquivos da biblioteca - Target
+
+Façade:
+GerenciadrArquivosFacade
