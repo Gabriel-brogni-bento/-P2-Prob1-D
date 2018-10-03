@@ -5,7 +5,6 @@ public class MP3DJNosso extends MP3DJ implements FormatoAudio {
 	@Override
 	public void abrir(String file) {
 		setFile(file);
-		
 	}
 
 	@Override
@@ -20,7 +19,8 @@ public class MP3DJNosso extends MP3DJ implements FormatoAudio {
 
 	@Override
 	public void parar() {
-		stop();		
+		stop();
+		reward(reward(0));
 	}
 
 	@Override

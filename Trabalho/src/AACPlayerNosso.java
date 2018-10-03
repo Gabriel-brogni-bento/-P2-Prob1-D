@@ -35,7 +35,7 @@ public class AACPlayerNosso extends AACPlayer implements FormatoAudio {
 
 	@Override
 	public void retornar(int valor) {
-		setLocation(getLocation() + valor);		
+		setLocation(getLocation() - valor);		
 	}
 
 	@Override
