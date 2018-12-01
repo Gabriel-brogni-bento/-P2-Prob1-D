@@ -5,5 +5,12 @@ Adapter:
 Arquivos com final "Nosso" - Adapter
 Arquivos da biblioteca - Adaptee
 
-Fa�ade:
+Façade:
 GerenciadrArquivosFacade
+
++-*+-*+-*+-*+-*+-*+-*+-*
+Observações do Professor:
+- mapemaento não apresentou os participantes da estrutura dos padrões. Exemplo: no Factory, quem é produto, produto concreto?
+- Padrões OK.
+
+Nota (0-3):2,9
